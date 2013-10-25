@@ -1,0 +1,24 @@
+{
+  "name": "platformer",
+  "repo": "ngage/platformer",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "config.js",
+    "controllers/level1.js",
+    "directives/block.js",
+    "directives/scene.js",
+    "index.js",
+    "routes.js",
+    "services/map.js",
+    "services/player.js",
+    "services/scene.js",
+    "views/level1.js"
+  ],
+  "styles": []
+}

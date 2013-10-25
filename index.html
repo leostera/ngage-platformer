@@ -1,0 +1,22 @@
+<html ng-app="ngage-platformer">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to ngage-platformer</title>
+  <style src="build/build.css"></style>
+</head>
+<body>
+  <ng-view></ng-view>
+  <script src="build/build.js"></script>
+  <script>
+  angular = require('angular');
+  require('angular-route');
+
+  // Add other requires here
+  require('platformer');
+
+  angular.module("ngage-platformer", [
+    'platformer'
+    ]);
+  </script>
+</body>
+</html>
