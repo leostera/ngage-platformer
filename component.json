@@ -1,11 +1,10 @@
 {
   "dependencies": {
-    "componentizr/angular": "*",
-    "componentizr/angular-route": "*"
   },
   "remotes": [],
   "local": [
-    "platformer"
+    "platformer",
+    "ngage"
   ],
   "paths": [
     "./components",
