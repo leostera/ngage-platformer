@@ -1,0 +1,16 @@
+{
+  "name": "ngage",
+  "repo": "leostera/ngage",
+  "description": "A new wave game engine",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "module.js",
+    "di.js"
+  ],
+  "styles": []
+}
